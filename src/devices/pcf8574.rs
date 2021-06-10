@@ -149,4 +149,5 @@ macro_rules! pcf8574 {
 }
 
 pcf8574!(Pcf8574, Pcf8574Data, 0b010_0000);
+pcf8574!(Pcf8574alt, Pcf8574altData, 0b010_0111);
 pcf8574!(Pcf8574a, Pcf8574aData, 0b011_1000);
